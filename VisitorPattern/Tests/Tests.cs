@@ -21,5 +21,22 @@ namespace Tests
             Assert.IsFalse(figure.IfRectangle(c => true).Else(() => false));
             Assert.IsFalse(figure.IfTriangle(c => true).Else(() => false));
         }
+
+        [Test]
+        public void AreaTest()
+        {
+            IFigure figure = new Rectangle(100, 5);
+
+            var area = figure.IfRectangle(r => r.Height * r.Width)
+                .IfCircle(c => Math.PI * c.Radius * c.Radius)
+                .IfTriangle(t =>
+                    {
+                        var p = (t.A + t.B + t.C) / 2;
+                        return Math.Sqrt(p * (p - t.A) * (p - t.B) * (p - t.C));
+                    }
+                ).Else(() => 0);
+
+            Assert.AreEqual(500, area);
+        }
     }
 }
