@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryFigures", "GeometryFigures\GeometryFigures.csproj", "{B213BDED-6661-409D-BB72-D4B36E060CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorImplementations", "VisitorImplementations\VisitorImplementations.csproj", "{3C599648-FD29-4E77-B201-5815220DDA72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A66D5B90-A6AA-49EE-94F3-08A5B4E48668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B213BDED-6661-409D-BB72-D4B36E060CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B213BDED-6661-409D-BB72-D4B36E060CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B213BDED-6661-409D-BB72-D4B36E060CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B213BDED-6661-409D-BB72-D4B36E060CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C599648-FD29-4E77-B201-5815220DDA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C599648-FD29-4E77-B201-5815220DDA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C599648-FD29-4E77-B201-5815220DDA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C599648-FD29-4E77-B201-5815220DDA72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66D5B90-A6AA-49EE-94F3-08A5B4E48668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66D5B90-A6AA-49EE-94F3-08A5B4E48668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66D5B90-A6AA-49EE-94F3-08A5B4E48668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66D5B90-A6AA-49EE-94F3-08A5B4E48668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
